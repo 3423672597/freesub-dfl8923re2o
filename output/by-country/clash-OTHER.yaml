@@ -5,21 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: china.mfa.gov.ua
-  port: 443
-  udp: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: true
-  servername: 77yku.ngw0.4j6.hh.vavava.kdns.fr
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: 77yku.ngw0.4j6.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 104.18.13.71
+  server: 104.18.12.71
   port: 443
   udp: true
   type: vless
@@ -39,13 +25,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - xiaohe
-  - 🌐 其他地区 (Other) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - xiaohe
-  - 🌐 其他地区 (Other) 02 - xiaohe
 rules:
 - MATCH,PROXIES

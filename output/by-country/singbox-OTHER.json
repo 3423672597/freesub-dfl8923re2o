@@ -6,26 +6,7 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "china.mfa.gov.ua",
-      "server_port": 443,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "77yku.ngw0.4j6.hh.vavava.kdns.fr",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "77yku.ngw0.4j6.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.18.13.71",
+      "server": "104.18.12.71",
       "server_port": 443,
       "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
       "tls": {
@@ -50,16 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

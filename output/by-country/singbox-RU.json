@@ -15,7 +15,7 @@
         "server_name": "ozon.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -35,7 +35,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,

@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   servername: ozon.ru
-  client-fingerprint: ios
+  client-fingerprint: ''
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   server: 77.90.61.135
   port: 443
@@ -27,7 +27,7 @@ proxies:
     public-key: XlEzAhUOUC-hZA2Uk2sctG5WR9lPeAUAHGNQVu9oAVg
     short-id: ce1dc482
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
